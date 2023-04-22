@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Shadows+Into+Light&display=swap');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 580px;
+  margin: auto;
+  margin-top: 2%;
+  color: white;
+  background-color: rgb(11, 34, 54);
+  /* border: 1px solid black; */
+}
+.header{
+  display: flex;
+  width: auto;
+  height: 15%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid white;
+  /* text-align: center; */
+  /* border: 1px solid black; */
+}
+.main_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin-top: 3% ;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid yellow;
+}
+
+h1{
+  font-size: 30px;
+}
+h2{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  color: aqua;
+}
+
+
+
+
+
+#text{
+  width: 350px;
+  height: 25px;
+  outline: none;
+  text-align: center;
+}
+.btn_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+  width: 350px;
+  height: 40px;
+  border: 1px solid black;
+}
+button{
+  color: rgb(16, 16, 179);
+}
+.submit{
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height: 30px;
+}
+.copy{
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  width: 170px;
+  height: 30px; 
+}
+.text_box{
+  width: 40%;
+  height: auto;
+  text-align: center;
+  color: aqua;
+}
